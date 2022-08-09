@@ -29,8 +29,9 @@ public class ExplorePage {
     }
 
     @Step("Verify content found")
-    public ExplorePage verifyContentFound() {
+    public SearchResultPage verifyContentFound() {
         assertThat(listOfSearchResults.size()).isGreaterThan(0);
-        return this;
+
+        return new SearchResultPage();
     }
 }
