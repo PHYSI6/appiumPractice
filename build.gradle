@@ -39,6 +39,7 @@ dependencies {
             "commons-io:commons-io:$commonsIoVersion",
             "org.junit.jupiter:junit-jupiter:$junitVersion",
             "org.slf4j:slf4j-simple:$slf4jVersion",
+            "io.qameta.allure:allure-rest-assured:$allureVersion",
             "org.assertj:assertj-core:$assertJVersion"
     )
 }

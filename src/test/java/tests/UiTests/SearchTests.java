@@ -1,4 +1,4 @@
-package tests;
+package tests.UiTests;
 
 import io.qameta.allure.Owner;
 import org.junit.jupiter.api.DisplayName;
